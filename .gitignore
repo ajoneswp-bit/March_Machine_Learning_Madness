@@ -1,3 +1,3 @@
-*.csv
-*.parquet
-model_meta.pkl
+echo "*.csv" >> .gitignore
+echo "*.parquet" >> .gitignore
+echo "*model_meta.pkl" >> .gitignore
